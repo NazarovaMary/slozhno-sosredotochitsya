@@ -85,9 +85,9 @@
 
 .main {
   display: grid;
-  gap: 80px;
+  gap: 50px;
   /*padding: 10px;*/
-  padding: 0px 20px;
+  padding: 10px;
 }
 
 .section {
@@ -199,7 +199,8 @@
 
 @media (min-width: 320px) and (max-width: 767px) {
   .header {
-    padding: 0px 10px 10px;
+    padding: 5px;
+    margin-block-end: 40px;
   }
 
   .header__theme-menu-list {
@@ -210,7 +211,7 @@
 
   .header__theme-menu {
     justify-self: end;
-    margin-block-start: 55px;
+    margin-block-start: 80px;
   }
 
   .header__title-container {
@@ -375,7 +376,7 @@
   align-items: center;
   padding: 20px;
   min-block-size: 100vh;
-  margin-block-start: 60px;
+  margin-block-start: 40px;
 }
 .footer__title {
   align-self: center;
