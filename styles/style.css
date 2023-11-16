@@ -391,7 +391,7 @@ flex-direction: column;
   align-items: center;
   padding: 20px;
   min-block-size: 100vh;
-  margin-block-start: 20px;
+  margin-block-start: 40px;
 }
 .footer__title {
   align-self: center;
