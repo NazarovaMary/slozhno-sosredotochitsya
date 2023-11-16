@@ -197,7 +197,7 @@
 
 @media (min-width: 320px) and (max-width: 767px) {
   .header {
-    padding: 5px;
+    padding: 10px;
     margin-block-end: 30px;
   }
 
@@ -391,7 +391,7 @@ flex-direction: column;
   align-items: center;
   padding: 20px;
   min-block-size: 100vh;
-  margin-block-start: 40px;
+  margin-block-start: 52px;
 }
 .footer__title {
   align-self: center;
