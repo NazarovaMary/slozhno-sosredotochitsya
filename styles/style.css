@@ -207,7 +207,7 @@
     padding: 10px;
   }
   .header__theme-menu-list {
-    gap: 11px;
+    gap: 9px;
     flex-direction: column;
     align-items: flex-end;
   }
@@ -215,7 +215,7 @@
   .header__theme-menu {
     justify-self: end;
     margin-block-start: 50px;
-    padding: 20px 5px;
+    padding: 18px 0px;
   }
 
   .header__title-container {
