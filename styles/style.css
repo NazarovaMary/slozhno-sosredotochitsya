@@ -3,7 +3,8 @@
 .page {
   /* сохраните в разметке и стилях класс page. На его основе работает скрипт. */
 
-  background: var(--background-image), var(--background-color);
+  background-color: var(--bg-color, #000028);
+  background-image: var(--bg-image);
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
@@ -113,7 +114,7 @@
 .section__article-title {
   font-size: 18px;
   font-weight: 700;
-  color: var(--article-title-color);
+ color: var(--subtitle-color, #000028);
   background-color: var(--accent-color, #ff0070);
 }
 .section__article-list-title {
@@ -190,7 +191,7 @@
 }
 
 .dark-title {
-  color: var(--article-title-color);
+  color: var(--subtitle-color, #000028);
   background-color: var(--accent-color, #ff0070);
   max-width: none;
 }
@@ -319,7 +320,7 @@
     gap: 20px;
     width: 97%;
     display: flex;
-flex-direction: column;
+    flex-direction: column;
   }
   .section:nth-of-type(2) .section__article-item {
     flex: 1 0 auto;
@@ -391,7 +392,7 @@ flex-direction: column;
   align-items: center;
   padding: 20px;
   min-block-size: 100vh;
-  margin-block-start: 52px;
+  margin-block-start: 30px;
 }
 .footer__title {
   align-self: center;
