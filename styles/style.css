@@ -207,7 +207,7 @@
     padding: 10px;
   }
   .header__theme-menu-list {
-    gap: 9px;
+    gap: 11px;
     flex-direction: column;
     align-items: flex-end;
   }
@@ -215,7 +215,7 @@
   .header__theme-menu {
     justify-self: end;
     margin-block-start: 50px;
-    padding: 18px 0px;
+    padding: 20px 5px;
   }
 
   .header__title-container {
@@ -314,7 +314,7 @@
 
 @media (width < 1024px) and (width >= 375px) {
   .header__title {
-    text-shadow: 4px 4px 0px var(--title-decor);
+    text-shadow: 4px 4px 0px var(--accent-color);
   }
   .section:nth-of-type(2) .section__article-list {
     gap: 20px;
