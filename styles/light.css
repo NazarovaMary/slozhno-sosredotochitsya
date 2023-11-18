@@ -24,8 +24,21 @@
     background-image: var(--bg-image);
     background-color: #fff1f7;
   }
+  
   .decor {
     display: none;
+  }
+
+  @media (min-width: 320px) and (max-width: 768px) {
+    .header__title {
+      color: var(--heading-text);
+      text-shadow: 4px 4px 0px var(--accent-color);
+    }
+
+    .footer__title {
+      color: var(--heading-text);
+      text-shadow: 2px 2px 0px var(--accent-color);
+    }
   }
 
   @media (prefers-color-scheme: light) {
@@ -42,6 +55,7 @@
       background-color: #fff1f7;
       background-image: var(--bg-image);
     }
+
     .decor {
       display: none;
     }
@@ -51,6 +65,7 @@
         color: var(--heading-text);
         text-shadow: 4px 4px 0px var(--accent-color);
       }
+
       .footer__title {
         color: var(--heading-text);
         text-shadow: 2px 2px 0px var(--accent-color);
