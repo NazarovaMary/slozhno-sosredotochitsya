@@ -423,9 +423,6 @@
   line-height: 82.5%;
 }
 
-@media (width < 1024px) and (width >= 375px) {
- 
-}
 @media (width < 1024px) and (width >= 768px) {
   .footer {
     padding: 434px 20px;
