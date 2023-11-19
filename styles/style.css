@@ -479,7 +479,7 @@
 
 @media (width < 1024px) and (width >= 768px) {
   .footer {
-    padding: 434px 20px;
+    margin-block-start: 50px;
   }
 
   @media (width < 768px) and (width >= 375px) {
