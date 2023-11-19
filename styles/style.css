@@ -293,8 +293,8 @@
 
 @media (min-width: 320px) and (max-width: 767px) {
   .header {
-    margin-block-end: 40px;
-    padding: 20px 10px;
+    margin-block-end: 30px;
+    padding: 10px;
   }
 
   .main {
@@ -309,6 +309,7 @@
 
   .header__theme-menu {
     justify-self: end;
+    padding: 10px 0px;
     margin-block-start: 55px;
   }
 
