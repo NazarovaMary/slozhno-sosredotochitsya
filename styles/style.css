@@ -431,7 +431,6 @@
     display: flex;
     gap: 20px;
     margin-block-end: 80px;
-    flex-wrap: wrap;
   }
 
   .header__text {
@@ -479,7 +478,7 @@
 
 @media (width < 1024px) and (width >= 768px) {
   .footer {
-    margin-block-start: 50px;
+    margin-block-start: 55px;
   }
 
   @media (width < 768px) and (width >= 375px) {
