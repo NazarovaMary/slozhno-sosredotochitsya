@@ -20,6 +20,7 @@
   --section-article-text: #353430;
   --heading-text: #ffc2e6;
   --bg-image: url(../images/cover-image-light.png);
+  --secondary-color: var(--color-black, #35343040);
   .page {
     background-image: var(--bg-image);
     background-color: #fff1f7;
@@ -27,6 +28,26 @@
   
   .decor {
     display: none;
+  }
+
+  @media (prefers-color-scheme: light) {
+    :root {
+      --main-text-color: #353430;
+      --article-title-color: var(--main-text-color);
+      --section-title-color: var(--main-text-color);
+      --link-shadow: var(--title-color);
+      --text-color: #353430;
+      --accent-color: #ff8dcb;
+      --heading-text: #ffc2e6;
+      --bg-color: #fff1f7;
+      --border-color: #353430;
+      --rec-color: var(--background-color);
+      --bg-image: url(../images/cover-image-light.png);
+      --secondary-color: var(--color-black, #35343040);
+    }
+    .decor {
+      display: none;
+    }
   }
 
   @media (min-width: 320px) and (max-width: 768px) {
@@ -51,6 +72,7 @@
       --bg-color: #fff1f7;
       --subtitle-color: #353430;
       --bg-image: url(../images/cover-image-light.png);
+      --secondary-color: var(--color-black, #35343040);
     }
     
     .page {

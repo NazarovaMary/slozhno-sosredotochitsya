@@ -19,8 +19,30 @@
   --border-color: #ff0070;
   --border-bottom: #f1b2ce;
   --bg-image: url(../images/cover-image-dark.png);
+  --secondary-color: var(--color-purple, #ff007040);
+  
   .decor {
     display: block;
   }
 }
 
+@media (prefers-color-scheme: dark) {
+  :root {
+    --title-color: #db00ff;
+    --accent-color: #ff0070;
+    --article-title-color: var(--background-color);
+    --article-text-color: var(--title-shadow);
+    --link-shadow: var(--title-shadow);
+    --bg-color: #000028;
+    --border-color: #ff0070;
+    --section-title-color: var(--title-shadow);
+    --title-decor: var(--title-shadow);
+    --rec-color: var(--title-shadow);
+    --bg-image: url(../images/cover-image-dark.png);
+    --secondary-color: var(--color-purple, #ff007040);
+   
+    .decor {
+      display: block;
+    }
+  }
+}
