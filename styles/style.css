@@ -240,7 +240,7 @@
 }
 
 .focus {
-  margin-block-end: 60px;
+  margin-block-end: 63px;
 }
 
 .section:last-of-type .section__image {
@@ -320,7 +320,7 @@
   }
 
   .header {
-    margin-block-end: 45px;
+    margin-block-end: 40px;
     padding: 10px;
   }
 
@@ -461,9 +461,6 @@
     margin-left: -3%;
   }
 
-  .header__title {
-    margin-left: -3%;
-  }
   .header__text {
     max-width: 364px;
   }
@@ -520,7 +517,7 @@
   padding: 20px;
   min-height: 668px;
   height: 100vh;
-  margin-block-start: 60px;
+  margin-block-start: 62px;
   justify-content: center;
   align-items: center;
 }
@@ -548,7 +545,7 @@
     .footer {
       margin-top: 40px;
       padding: 262px 10px;
-      margin-block-start: 30px;
+      margin-block-start: 40px;
     }
   }
 }
