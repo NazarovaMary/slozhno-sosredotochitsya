@@ -383,7 +383,7 @@
   }
 
   .concentrate {
-    margin-block-end: 50px;
+    margin-block-end: 55px;
   }
 
   .concentrate__container {
@@ -450,7 +450,7 @@
 @media (min-width: 768px) and (max-width: 1023px) {
   .header__theme-menu {
     justify-self: end;
-    margin-block-start: 166px;
+    margin-block-start: 167px;
   }
   .header__theme-menu-list {
     flex-direction: column;
