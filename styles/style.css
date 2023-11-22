@@ -183,7 +183,7 @@
   font-family: var(--font-family, "IBM Plex Mono", monospace);
 }
 
-.article__list-item .article__title {
+.article__list-item .section__article__title {
   font-weight: 400;
 }
 
@@ -314,12 +314,13 @@
 /*(min-width: 320px) and (max-width: 767px)*/
 
 @media (min-width: 320px) and (max-width: 767px) {
+
   .main {
     padding: 0px 10px;
   }
 
   .header {
-    margin-block-end: 30px;
+    margin-block-end: 45px;
     padding: 10px;
   }
 
@@ -456,9 +457,8 @@
     gap: 13px;
   }
 
-  .header__title-container {
-    padding: 150px 0 183px;
-    gap: 133px;
+  .header__title {
+    margin-left: -3%;
   }
 
   .header__title {
@@ -478,7 +478,6 @@
   }
 
   .content__section {
-    grid-template-columns: 236px auto;
     gap: 20px;
   }
 
