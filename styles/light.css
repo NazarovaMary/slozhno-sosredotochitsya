@@ -41,44 +41,4 @@
       text-shadow: 2px 2px 0px var(--accent-color);
     }
   }
-
-  @media (prefers-color-scheme: light) {
-    :root {
-      --heading-text: #ffc2e6;
-      --accent-color: #ff8dcb;
-      --border-color: #353430;
-      --border-bottom: #353430;
-      --text-color: #353430;
-      --bg-color: #fff1f7;
-      --subtitle-color: #353430;
-      --bg-image: url(../images/cover-image-light.png);
-      --secondary-color: var(--color-black, #35343040);
-      --main-text-color: #353430;
-      --article-title-color: var(--main-text-color);
-      --section-title-color: var(--main-text-color);
-      --link-shadow: var(--title-color);
-      --rec-color: var(--background-color);
-    }
-
-    .page {
-      background-color: #fff1f7;
-      background-image: var(--bg-image);
-    }
-
-    .decor {
-      display: none;
-    }
-
-    @media (min-width: 320px) and (max-width: 768px) {
-      .header__title {
-        color: var(--heading-text);
-        text-shadow: 4px 4px 0px var(--accent-color);
-      }
-
-      .footer__title {
-        color: var(--heading-text);
-        text-shadow: 2px 2px 0px var(--accent-color);
-      }
-    }
-  }
 }
