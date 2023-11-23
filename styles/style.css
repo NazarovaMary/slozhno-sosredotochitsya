@@ -400,9 +400,9 @@
     gap: 20px;
   }
 
-  /*.focus {
+  .focus {
     margin-block-end: 32px;
-  }*/
+  }
 
   .concentrate {
     margin-block-end: 55px;
