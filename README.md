@@ -9,11 +9,11 @@ html-страница сайта (<a href="https://github.com/MGKrupkina/slozhno
 
 стили (<a href="https://github.com/MGKrupkina/slozhno-sosredotochitsya/tree/main/styles" target="_blank">styles</a>)
 
+скрипт (<a href="https://github.com/MGKrupkina/slozhno-sosredotochitsya/blob/main/scripts/script.js" target="_blank">script.js</a>)
+
 шрифты (<a href="https://github.com/MGKrupkina/slozhno-sosredotochitsya/tree/main/fonts" target="_blank">fonts</a>)
 
 изображения (<a href="https://github.com/MGKrupkina/slozhno-sosredotochitsya/tree/main/images" target="_blank">images</a>)
-
-скрипт (<a href="https://github.com/MGKrupkina/slozhno-sosredotochitsya/blob/main/scripts/script.js" target="_blank">script.js</a>)
 
 автотесты (<a href="https://github.com/MGKrupkina/slozhno-sosredotochitsya/blob/main/.github/workflows/tests.yml" target="_blank">tests.yml</a>)
 
