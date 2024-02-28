@@ -17,11 +17,8 @@ html-страница сайта (<a href="https://github.com/MGKrupkina/slozhno
 
 автотесты (<a href="https://github.com/MGKrupkina/slozhno-sosredotochitsya/blob/main/.github/workflows/tests.yml" target="_blank">tests.yml</a>)
 
-<a href="https://www.figma.com/file/lCqDbWjgllgJtb2hmCqfyX/%236-Сложно-сосредоточиться?node-id=0%3A1&mode=dev" target="_blank">Макет (перейти по ссылке):</a>
+<a href="https://www.figma.com/file/lCqDbWjgllgJtb2hmCqfyX/%236-Сложно-сосредоточиться?node-id=0%3A1&mode=dev" target="_blank">Макет (перейти по ссылке)</a>
 
-
-
-https://www.figma.com/file/lCqDbWjgllgJtb2hmCqfyX/%236-Сложно-сосредоточиться?node-id=0%3A1&mode=dev
 
 
 ![screenshot_light_theme_desktop](https://github.com/MGKrupkina/slozhno-sosredotochitsya/assets/145542673/d2545862-6d90-41db-985a-b150a8464e79)
